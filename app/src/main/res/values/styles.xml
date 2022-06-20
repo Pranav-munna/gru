@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="editTextRoundHolo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:background">@drawable/bg_stroke_circle_edge</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textColorHint">@color/white_bg</item>
+    </style>
+
+    <style name="buttonWhiteRound">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:background">@drawable/bg_white_circle_edge</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

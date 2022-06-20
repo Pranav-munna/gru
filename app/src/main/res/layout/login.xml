@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".login.Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/gold_rate_updates"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/edtTxtEmpId"
+        style="@style/editTextRoundHolo"
+        android:layout_marginLeft="60dp"
+        android:enabled="false"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/enter_your_employee_id"
+        android:importantForAutofill="no"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edtTxtPassword"
+        style="@style/editTextRoundHolo"
+        android:autofillHints="no"
+        android:enabled="false"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        style="@style/buttonWhiteRound"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="@string/login" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="-10dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_login_ring" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/gold_rate_updates"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gold Rate</string>
+    <string name="gold_rate_updates">Gold Rate Updates</string>
+    <string name="enter_your_employee_id">Enter your Employee ID</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="image">Image</string>
+    <string name="welcome">Welcome</string>
+    <string name="ltv_updates">LTV Updates</string>
+    <string name="exit">Exit</string>
+    <string name="update_rate">Update Rate</string>
+    <string name="agloc_solid">Agloc Solid</string>
+    <string name="amount">Amount</string>
+    <string name="save">Save</string>
+    <string name="agloc_non_solid">Agloc Non Solid</string>
+</resources>
